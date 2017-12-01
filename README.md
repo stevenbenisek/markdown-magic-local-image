@@ -1,5 +1,7 @@
 # markdown-magic-local-image
 
+[![Build Status](https://travis-ci.org/stevenbenisek/markdown-magic-local-image.svg?branch=master)](https://travis-ci.org/stevenbenisek/markdown-magic-local-image)
+
 > [Markdown Magic](https://github.com/DavidWells/markdown-magic) plugin to add
 > local images to markdown.
 
