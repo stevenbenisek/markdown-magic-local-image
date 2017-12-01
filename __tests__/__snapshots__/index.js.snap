@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LOCALIMAGE 1`] = `
+"###### test
+![Alt text](__tests__/test.gif \\"test\\")
+###### test
+![Alt text](__tests__/test.jpg \\"test\\")
+###### test
+![Alt text](__tests__/test.png \\"test\\")
+###### test
+![Alt text](__tests__/test.svg \\"test\\")"
+`;
+
+exports[`LOCALIMAGE:heading=false 1`] = `
+"![Alt text](__tests__/test.gif \\"test\\")
+![Alt text](__tests__/test.jpg \\"test\\")
+![Alt text](__tests__/test.png \\"test\\")
+![Alt text](__tests__/test.svg \\"test\\")"
+`;
+
+exports[`LOCALIMAGE:headingLevel=4 1`] = `
+"#### test
+![Alt text](__tests__/test.gif \\"test\\")
+#### test
+![Alt text](__tests__/test.jpg \\"test\\")
+#### test
+![Alt text](__tests__/test.png \\"test\\")
+#### test
+![Alt text](__tests__/test.svg \\"test\\")"
+`;
+
+exports[`LOCALIMAGE:include=**/*.svg 1`] = `
+"###### test
+![Alt text](__tests__/test.svg \\"test\\")"
+`;

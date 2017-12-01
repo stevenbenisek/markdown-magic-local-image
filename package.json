@@ -1,0 +1,41 @@
+{
+  "name": "markdown-magic-local-image",
+  "version": "1.0.0",
+  "description": "Markdown Magic plugin to add local images to markdown",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "test": "$(npm bin)/jest"
+  },
+  "keywords": [
+    "markdown-magic",
+    "plugin",
+    "markdown",
+    "image",
+    "docs",
+    "readme",
+    "svg",
+    "png",
+    "jpg",
+    "gif"
+  ],
+  "author": "Steven Benisek <steven.benisek@gmail.com>",
+  "homepage": "https://github.com/stevenbenisek/markdown-magic-local-image",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenbenisek/markdown-magic-local-image.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "peerDependencies": {
+    "markdown-magic": "^0.1.19"
+  },
+  "dependencies": {
+    "glob": "^7.1.2"
+  }
+}
